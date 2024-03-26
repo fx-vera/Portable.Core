@@ -6,11 +6,23 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>Tucodev.Core.snk</AssemblyOriginatorKeyFile>
+    <Description>Core to implement a WPF application</Description>
+    <Copyright>2024 fx-vera</Copyright>
+    <PackageProjectUrl>https://github.com/fx-vera/tucodev-WPF</PackageProjectUrl>
+    <PackageLicenseFile>README.md</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="Managers\IoC.cs" />
     <Compile Remove="Managers\MEFIoCManager.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\WPF\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
