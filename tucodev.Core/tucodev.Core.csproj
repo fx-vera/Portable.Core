@@ -9,7 +9,7 @@
     <Description>Core to implement a WPF application</Description>
     <Copyright>2024 fx-vera</Copyright>
     <PackageProjectUrl>https://github.com/fx-vera/tucodev-WPF</PackageProjectUrl>
-    <PackageLicenseFile>README.md</PackageLicenseFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\WPF\README.md">
+    <None Include="..\LICENSE.txt">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
