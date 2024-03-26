@@ -8,6 +8,9 @@ namespace Tucodev.Core.Interfaces
     /// </summary>
     public interface IVVMMappingBase
     {
+        /// <summary>
+        /// The mapping to store view/viewmodels and make it available for the mainframe.
+        /// </summary>
         List<IVVMMappingModel> Mappings { get; }
     }
 }

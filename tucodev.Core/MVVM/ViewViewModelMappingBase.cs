@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using tucodev.Core.MVVM;
 using Tucodev.Core.Interfaces;
-using Tucodev.Core.Models;
 
 namespace Tucodev.Core.MVVM
 {
     /// <summary>
     /// Base class used to register in the global application dictionary a mapping between 
-    /// a specific viewmodel (not the interface it implements) and a view. 
+    /// a specific viewmodel and a view. 
     /// </summary>
     public class ViewViewModelMappingBase : IVVMMappingBase
     {
@@ -26,7 +26,7 @@ namespace Tucodev.Core.MVVM
             AddMapping(viewModel, view);
         }
 
-        public void AddMapping(Type viewModel, Type view)
+        private void AddMapping(Type viewModel, Type view)
         {
             _mappings.Add(new VVMMappingModel(viewModel, view));
         }

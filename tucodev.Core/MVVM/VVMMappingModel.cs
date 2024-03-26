@@ -1,9 +1,9 @@
 ﻿using System;
 using Tucodev.Core.Interfaces;
 
-namespace Tucodev.Core.Models
+namespace tucodev.Core.MVVM
 {
-    public class VVMMappingModel: IVVMMappingModel
+    public class VVMMappingModel : IVVMMappingModel
     {
         public Type View { get; set; }
         public Type ViewModel { get; set; }

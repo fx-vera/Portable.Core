@@ -3,7 +3,7 @@ using Tucodev.Core.Interfaces;
 
 namespace Tucodev.Core.MVVM
 {
-    public class PluginItemBase : IPluginItem
+    public class PluginItemBase : IPluginItemBase
     {
         public PluginItemBase()
         {
@@ -21,6 +21,5 @@ namespace Tucodev.Core.MVVM
         public string Name { get; set; }
 
         public ICommand Command { get; set; }
-
     }
 }

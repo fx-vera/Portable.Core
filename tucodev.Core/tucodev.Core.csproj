@@ -5,7 +5,7 @@
     <Platforms>AnyCPU;x64</Platforms>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <SignAssembly>True</SignAssembly>
-    <AssemblyOriginatorKeyFile>tucodev.Core.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>Tucodev.Core.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>

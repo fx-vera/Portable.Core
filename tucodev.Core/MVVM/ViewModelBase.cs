@@ -5,7 +5,7 @@ namespace Tucodev.Core.MVVM
     /// <summary>
     /// ViewModelBase
     /// </summary>
-    public abstract class ViewModelBase : IViewModel
+    public abstract class ViewModelBase : IViewModelBase
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="ViewModelBase"/> class.
