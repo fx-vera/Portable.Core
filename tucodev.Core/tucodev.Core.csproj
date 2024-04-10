@@ -3,11 +3,19 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Platforms>AnyCPU;x64</Platforms>
+
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>Tucodev.Core.snk</AssemblyOriginatorKeyFile>
+    <Copyright>Copyright (c) fx-vera 2024</Copyright>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Desktop Core for WPF or MAUI</Title>
     <Authors>$(AssemblyName),fx-vera</Authors>
     <Description>Desktop Core for build WPF or MAUI applications</Description>
-    <Copyright>Copyright (c) fx-vera 2024</Copyright>
     <PackageTags>wpf;maui;desktop;mvvm;core</PackageTags>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>

@@ -2,12 +2,12 @@
 {
     /// <summary>
     /// Interface to be followed by all controls that are the main content of an independent window
-    /// It provides some common properties and functionalities so that a common window frame 
+    /// It provides some common properties and functionalities so that a common window frame
     /// can be provided as a container.
     /// </summary>
     //[EditorBrowsable(EditorBrowsableState.Never)]
     //[Browsable(false)]
-    public interface IViewModel
+    public interface IViewModelBase
     {
         /// <summary>
         /// Id to distinguish this page, for common events and saving the layout
