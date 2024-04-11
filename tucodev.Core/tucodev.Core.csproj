@@ -7,20 +7,22 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>Tucodev.Core.snk</AssemblyOriginatorKeyFile>
-    <Copyright>Copyright (c) fx-vera 2024</Copyright>
+    <Copyright>Copyright (c) fxvera 2024</Copyright>
     <PackageProjectUrl></PackageProjectUrl>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Desktop Core for WPF or MAUI</Title>
-    <Authors>$(AssemblyName),fx-vera</Authors>
+    <Authors>$(AssemblyName),fxvera</Authors>
     <Description>Desktop Core for build WPF or MAUI applications</Description>
     <PackageTags>wpf;maui;desktop;mvvm;core</PackageTags>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
+    <RepositoryUrl>https://github.com/fx-vera/Portable.Core</RepositoryUrl>
+    <PackageReleaseNotes>The same code. Only has added the url of the repo.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
